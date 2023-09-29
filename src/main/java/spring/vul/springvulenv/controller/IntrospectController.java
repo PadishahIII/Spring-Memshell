@@ -34,11 +34,7 @@ public class IntrospectController {
             assert context != null;
 //            RequestMappingHandlerMapping requestMappingHandlerMapping = context.getBean(RequestMappingHandlerMapping.class);
             Map<String, RequestMappingHandlerMapping> beanMap = context.getBeansOfType(RequestMappingHandlerMapping.class);
-            for (String type : beanMap.keySet()) {
-                if (type.contains("requestMappingHandlerMapping")) {
 
-                }
-            }
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.append("<html><body>");
 

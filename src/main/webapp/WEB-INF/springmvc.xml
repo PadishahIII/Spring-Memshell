@@ -16,13 +16,13 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <mvc:annotation-driven/>
 
-    <mvc:interceptors>
-        <mvc:interceptor>
-            <mvc:mapping path="/hello*"/>
-<!--            <mvc:exclude-mapping path="/admin/**"/>-->
-            <bean class="spring.vul.springvulenv.interceptor.MemshellInterceptor"/>
-        </mvc:interceptor>
-    </mvc:interceptors>
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            <mvc:mapping path="/hello*"/>-->
+<!--&lt;!&ndash;            <mvc:exclude-mapping path="/admin/**"/>&ndash;&gt;-->
+<!--            <bean class="spring.vul.springvulenv.interceptor.MemshellInterceptor"/>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>
