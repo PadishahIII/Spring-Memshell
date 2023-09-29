@@ -17,12 +17,12 @@ web server environments like Beans, HandlerMappings, etc.). **For study use**.
 
 After start server, request `http://localhost:<your-port>/memshell-register` to load memshell, and request `http://localhost:<your-port>/memshell?cmd=whoami` to execute command. 
 
-![image](https://github.com/PadishahIII/Spring-Memshell/assets/83501709/6ab1c872-12fb-4d95-b73a-afcf7b273cd2)
+<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/6ab1c872-12fb-4d95-b73a-afcf7b273cd2"  alt="drawing" width="500">
 
 
 
 You can check the injected controller at `/introspect` page as shown below.
-![image](https://github.com/PadishahIII/Spring-Memshell/assets/83501709/e7ff8870-e8ed-4f2d-9d9d-d57ead6d68c6)
+<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/e7ff8870-e8ed-4f2d-9d9d-d57ead6d68c6"  alt="drawing" width="500">
 
 ---
 
@@ -31,11 +31,11 @@ You can check the injected controller at `/introspect` page as shown below.
 
 Visit `http://localhost:<your-port>/interceptor-register` to load evil interceptor whose path pattern is bound to `/hello*`. Then request `http://localhost:<your-port>/hello?cmd=whoami` to execute command.
 
-<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/de5d8210-d4fa-4893-8eb7-535da4bdb166" alt="drawing" width="200">
+<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/de5d8210-d4fa-4893-8eb7-535da4bdb166" alt="drawing" width="500">
 
 
 You can check the injected interceptor at `/introspect` page.
-![image](https://github.com/PadishahIII/Spring-Memshell/assets/83501709/eeff6c37-76a9-4dce-ad0f-df99212bde94)
+<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/eeff6c37-76a9-4dce-ad0f-df99212bde94"  alt="drawing" width="500">
 
 ---
 
@@ -44,5 +44,5 @@ You can check the injected interceptor at `/introspect` page.
 
 The `/introspect` controller would visit `RequestMappingHandlerMapping` Bean in current application context and try to extract all available informations including Beans, Resources, Controller mappings and Interceptors. Visit `http://localhost:<your-port>/introspect`.
 
-![image](https://github.com/PadishahIII/Spring-Memshell/assets/83501709/e92cc4e8-4922-49d7-b625-d36b9317e10c)
+<img src="https://github.com/PadishahIII/Spring-Memshell/assets/83501709/e92cc4e8-4922-49d7-b625-d36b9317e10c"  alt="drawing" width="500">
 
